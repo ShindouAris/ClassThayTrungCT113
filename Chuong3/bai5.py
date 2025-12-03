@@ -1,6 +1,4 @@
 n = int(input("Nhập số N: "))
 
-i = 1
-while i <= n:
+for i in range(n + 1):
     print(i)
-    i+=1

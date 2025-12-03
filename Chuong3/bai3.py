@@ -1,4 +1,2 @@
-for i in range(21):
-    if not i % 2 == 0:
-        continue
+for i in range(2, 21, 2):
     print(i)
